@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="sticky-nav">
+            <div class="logo">MY PORTFOLIO</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#contact">Contact Info</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-card hero-flex">
+            <div class="hero-content">
+                <h1>Hi I'm Gokul</h1>
+                <p>Passionate about AI, coding,and development</p>
+                <div class="hero-socials">
+                    <a href="mailto:ganeshsivamajeti572@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/ganesh-pavan-gokul-majeti-3755a5355" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Gokul-Majeti" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile.jpg" alt="Majeti Ganesh Pavan Gokul" class="profile-pic-large">
+            </div>
+        </div>
+    </section>
+    <section id="education">
+        <h2>Education</h2>
+        <div class="about-cards">
+            <div class="education-highlight">
+                <div class="education-icon"><i class="fas fa-graduation-cap"></i></div>
+                <div class="education-info">
+                    <div class="education-institute">NIT Warangal</div>
+                    <div class="education-degree">B.Tech in EEE, Minor in CSE</div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            
+            <div class="project">
+                <h3>Multi-Message Steganography Tool</h3>
+                <p>Python-based GUI tool for hiding multiple messages in an image using steganography techniques.</p>
+                <a href="https://github.com/Gokul-Majeti/Multi-Message-Steganography-Tool.git" target="_blank"><h4>Access my Project</h4></a>
+                <a href="https://drive.google.com/file/d/1uioMJQRVAxSwWk58gBUhraPKQVg3jS7R/view?usp=sharing" target="_blank"><h4>Access my Report</h4></a>
+            </div>
+            <div class="project">
+                <h3>Smart Parking System</h3>
+                <p>A mini project simulating a smart parking solution using sensors and microcontrollers in Tinkercad.</p>
+                <a href="https://www.tinkercad.com/things/k3cbwJ1yHJn-smart-parking-system-using-aurdino" target="_blank"><h4>Access my Project</h4></a>
+                <a href="https://docs.google.com/document/d/1Oqtg6Z1zK2urAVMia0VTII0JoEEwndXi/edit?usp=sharing&ouid=114572134815899751131&rtpof=true&sd=true" target="_blank"><h4>Access my Report</h4></a>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul class="skills-list">
+            <li><strong>Programming:</strong> <span class="skill-value">C, Python, C++, HTML, CSS, JavaScript</span></li>
+            <li><strong>Databases:</strong> <span class="skill-value">MYSQL</span></li>
+            <li><strong>Soft Skills:</strong> <span class="skill-value">Adaptability</span></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Info</h2>
+        <div class="contact-links">
+            <a href="mailto:ganeshsivamajeti572@gmail.com" title="Email"><i class="fas fa-envelope"></i></a>
+            <a href="https://www.linkedin.com/in/ganesh-pavan-gokul-majeti-3755a5355" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Gokul-Majeti" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <form id="contactForm">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <button type="submit">Send</button>
+        </form>
+        <div id="formMessage"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Majeti Ganesh Pavan Gokul. All rights reserved.</p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
