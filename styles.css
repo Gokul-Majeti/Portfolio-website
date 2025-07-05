@@ -1,4 +1,4 @@
-/* Project/Report Button Border */
+
 .project a h4 {
     border: 2px solid #38BDF8;
     border-radius: 8px;
@@ -17,7 +17,7 @@
     color: #121212;
     border-color: #fff;
 }
-/* Education Highlight Box Style */
+
 .education-highlight {
     display: flex;
     align-items: center;
@@ -60,7 +60,7 @@
     color: #e0eaff;
     font-weight: 500;
 }
-/* Education Timeline Style */
+
 .education-timeline {
     display: flex;
     flex-direction: column;
@@ -332,7 +332,7 @@ body.loaded .hero-content {
         border-radius: 12px;
     }
 }
-/* Dark Techy Theme */
+
 * {
     margin: 0;
     padding: 0;
