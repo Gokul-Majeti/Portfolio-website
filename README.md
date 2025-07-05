@@ -20,8 +20,4 @@ I'm Majeti Ganesh Pavan Gokul, currently pursuing B.Tech in Electrical & Electro
 🌙 Dark theme with glowing text and smooth UI
 
 🧰 Tech Stack
-Category	Technologies
-Structure	HTML
-Styling	CSS
-Interaction	JavaScript
-
+HTML, CSS, JAVASCRIPT
