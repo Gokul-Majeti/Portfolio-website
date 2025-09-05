@@ -16,9 +16,6 @@ navLinks.forEach(link => {
     });
 });
 
-// Contact form submission (demo only)
-// ...existing code...
-
 // Fade-in on scroll for sections
 const fadeSections = document.querySelectorAll('section, .project');
 function handleFadeIn() {
@@ -32,3 +29,4 @@ function handleFadeIn() {
 fadeSections.forEach(sec => sec.classList.add('fade-in-section'));
 window.addEventListener('scroll', handleFadeIn);
 window.addEventListener('load', handleFadeIn);
+
